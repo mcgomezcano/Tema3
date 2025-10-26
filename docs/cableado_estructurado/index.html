@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Cableado estructurado - Diseño de una red</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Diseño de una red</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Tema 3</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../caracteristicas/" class="dropdown-item">Capa Física</a>
+</li>
+                                    
+<li>
+    <a href="../Cableado/" class="dropdown-item">Medios de transmision</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Cableado estructurado</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Cableado/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#definicion" class="nav-link">Definición</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#ventajas" class="nav-link">Ventajas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#espacios-subsitemas" class="nav-link">Espacios. Subsitemas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#estandares" class="nav-link">Estándares</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#diagnostico" class="nav-link">Diagnóstico</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#certificacion" class="nav-link">Certificación</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="definicion">Definición</h2>
+<p>El cableado estructurado es la base física que permite conectar y gestionar redes de voz, datos y video dentro de una organización, ofreciendo flexibilidad, escalabilidad y facilidad de mantenimiento.</p>
+<p>Un Sistema de Cableado estructurado es el conjunto de cables, conexiones, canalizaciones, espacios y demás dispositivos que deben ser instalados para establecer una infraestructura de telecomunicaciones flexible y segura en un edificio.</p>
+<p>La instalación de todos los elementos debe cumplir los estándares correspondientes para que se califique de cableado estructurado, esto supone un beneficio para su administración y gestión. Está pensado para hacer frente a las modificaciones y el crecimiento de la instalación.</p>
+<p>En un sistema de cableado estructurado todos los dispositivos finales están conectados a un punto central para facilitar la interconexión con cualquier dispositivo y la administración del sistema desde cualquier lugar.</p>
+<h2 id="ventajas">Ventajas</h2>
+<p>Antes de proceder al diseño de la red se han de tener en cuenta muchos factores que van a repercutir en la elección de unas características u otras. Todos ellos deben ser tenidos en cuenta para poder realizar un correcto dimensionado de la infraestructura que se adapte tanto a las necesidades actuales como futuras.
+* Facilidad y flexibilidad de mantenimiento.
+* Integración de señales.
+* Facilidad de instalación y de ampliación (escalabilidad).
+* Aumento de la seguridad, tanto a nivel de datos como a nivel de seguridad personal.
+* Alta velocidad de transmisión.</p>
+<h2 id="espacios-subsitemas">Espacios. Subsitemas</h2>
+<p>El cableado estructurado se divide en subsistemas más
+pequeños, cada uno de los cuales tiene una función
+determinada dentro del sistema global.
+Se puede abordar el diseño y montaje del cableado de una
+LAN por partes, cada una de ellas independientemente de
+las demás, lo que facilita la instalación y mantenimiento
+posterior. </p>
+<p>Un sistema de cableado estructurado incluye canalizaciones, medios de transmisión, conectores y paneles. Podemos distinguir las siguientes partes:</p>
+<ul>
+<li><strong>Cableado vertical</strong> o <strong>Backbone</strong>: Es la parte troncal de la instalación, conecta diferentes plantas, por tanto, hay que tener especial cuidado porque cualquier disminución del rendimiento en este cableado afectaría a toda la instalación.</li>
+<li><strong>Cableado Horizontal</strong>: El cableado horizontal facilita la comunicación dentro de la planta, va desde el área de trabajo hasta el armario de comunicaciones.</li>
+<li><strong>Entrada al edificio</strong>: Es la acometida de red, incluye la acometida telefónica, los cables y dispositivos necesarios para conectar a proveedores externos.</li>
+<li><strong>Cuarto de comunicaciones</strong>: Conecta el subsistema de cableado horizontal con el subsistema vertical.</li>
+<li><strong>Áreas de Trabajo</strong>: Los componentes del área de trabajo son los existentes entre la salida del armario de telecomunicaciones y el equipo del usuario. Esta parte de la instalación no está incluida en el estándar.</li>
+<li><strong>Armarios de comunicaciones</strong> .
+<img alt="imagen 1" src="../imagenes/cableado_estructurado.png" /></li>
+</ul>
+<h3 id="subsistema-horizontal">Subsistema horizontal</h3>
+<p>Se debe considerar su proximidad con el cableado eléctrico que genera altos niveles de interferencia electromanética (motores, elevadores, transformadores etc) y cuyas limitaciones se encuentran en el estándar ANSI/EIA/TIA 569.</p>
+<p>La máxima longitud permitida independientemente del tipo de medio de TX utilizado es 100 metros = 90 m + 3m usuario + 7 m patchpannel.</p>
+<p><img alt="imagen 2" src="../imagenes/SCE.png" /></p>
+<h3 id="subsistema-vertical">Subsistema vertical</h3>
+<p>El propósito del cableado vertical (<em>backbone</em>) es proporcionar interconexiones entre cada uno de los concentradores y conmutadores, que a través del cableado horizontal controlan las distintas áreas de trabajo, y el o los de telecomunicaciones establecidos en el diseño de la red.</p>
+<h3 id="area-de-trabajo">Area de trabajo</h3>
+<p>Cada área de trabajo tiene una o varias tomas de usuario. En
+cada uno de ellos habrá una roseta de conexión que permite
+conectar el equipo o equipos que se quieran integrar en la
+red.</p>
+<h3 id="cuarto-de-telecomunicaciones-y-armarios">Cuarto de telecomunicaciones y armarios</h3>
+<p>El cuarto de telecomunicaciones (TC- <em>Telecommunications
+Closet</em>) es el área exclusiva dentro de un edificio para albergar los equipos de la red local de interconexión entre cada uno de los subsistemas del cableado estructurado.</p>
+<p>Es un espacio cerrado de un edificio utilizado para el uso
+exclusivo de cableado de telecomunicaciones y sistemas
+auxiliares: bastidores (<em>racks</em>), concentradores, aire
+acondicionado propio…</p>
+<p>Un <strong>rack</strong> es un soporte metálico destinado a alojar equipamiento electrónico, informático y de comunicaciones. También son llamados bastidores, cabinas, cabinets o armarios.
+Deben de contar con al menos 82 cm de espacio libre por delante y por detrás. Las medidas para la anchura están
+normalizadas para que sean compatibles con equipamiento de cualquier fabricante (19”).
+La altura interior de los racks se mide en unidades de altura conocidas como unidades U. Una unidad de altura U equivale a 50 milímetros de longitud.</p>
+<p>En una instalación para una red de ordenadores se instala al menos un rack por planta. El de la planta baja suele ser el principal (a menos que se trate de una red de varios edificios).
+<img alt="" src="../imagenes/esquema.jpg" /></p>
+<h2 id="estandares">Estándares</h2>
+<p>La instalación debe cumplir normas internacionales (ANSI/TIA-568, ISO/IEC 11801) y nacionales (NOM-001-SEDE), asegurando seguridad, compatibilidad y auditorías confiables.</p>
+<p>Algunos de los organismos encargados de normalizar o regular el cableado estructurado son:
+<img alt="imagen 2" src="../imagenes/normas_cableado.jpg" />
+La normativa de cableado estructurado en España es la que aplica los estándares europeos (EN) que están a cargo de CEN/CENELEC.
+La adaptación de los principios EN a las normas de nuestro país está a cargo de AENOR, dando lugar a los estándares UNE EN.
+* UNE EN 50310. Diseño del edificio
+* UNE EN 50173. Diseño y distribución del SCE
+* UNE EN 50174. Planificación del SCE</p>
+<p>A la hora de hacer las conexiones, la norma EIA/TIA 568A - B especifica la disposición de colores que llevarán ambos extremos del cable de par trenzado al unirlos a los conectores RJ45.</p>
+<p><img alt="imagen 3" src="../imagenes/T568A-B.jpg" /></p>
+<h2 id="diagnostico">Diagnóstico</h2>
+<p>Cuando se instalan cables de par trenzado en el cableado vertical, horizontal o área de trabajo, así como cualquier latiguillo de parcheo, es necesario verificar mediante pruebas de diagnóstico la ausencia de errores.</p>
+<p>Mediante el <strong>diagnóstico</strong> se prueba la funcionalidad del
+cableado, determinando si este puede transportar señales
+entre sus extremos dentro de los parámetros de calidad
+establecidos por los estándares, analizando cuestiones como:
+* Eficiencia de transmisión de la señal a través del cable.
+* Interferencias en la señal durante la transmisión.
+* Atenuación de la señal durante la transmisión.</p>
+<h2 id="certificacion">Certificación</h2>
+<p>La <strong>certificación</strong> del cableado estructurado es el proceso de prueba y análisis por el que se establece la seguridad de que dicho cableado cumple con unos parámetros de calidad
+establecidos en estándares, y especificados en contrato,
+atendiendo a la calidad del cable utilizado.</p>
+<p>Las pruebas de certificación se llevan a cabo con personal capacitado y con equipos calibrados y certificados por laboratorios nacionales o internacionales y para validar que la funcionalidad y rendimiento del cable estén al menos dentro de lo que indican los estándares.</p>
+<pre><code class="language-python">Una red que no está certificada no está terminada.
+</code></pre>
+<p><img alt="imagen 4" src="../imagenes/CertificaciondeRedes.jpg" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
