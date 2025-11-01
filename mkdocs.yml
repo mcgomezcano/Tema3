@@ -1,30 +1,37 @@
 site_name: Diseño de una red
-theme: material
-palette:
-      scheme: default
+theme: 
+  name: material
+  icon:
+    repo: 'fontawesome/brands/github'
+  features:
+    - navigation.sections
+  palette:
+    - scheme: default
       toggle:
-          icon: material/brightness-7 
-          name: Canvia a mode oscur
-
-      scheme: slate
+        icon: material/brightness-7 
+        name: Cambia a modo oscuro
+    - scheme: slate
       toggle:
-          icon: material/brightness-4
-          name: Canvia a mode clar
+        icon: material/brightness-4
+        name: Cambia a modo claro
 extra_css:
   - css/styles.css
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
 plugins:
-    - search
-    - pdf-export
-    - page-to-pdf
+  - search
+  - pdf-export
+  - page-to-pdf
+    
 docs_dir: 'md'
 site_dir: 'docs'
 nav:
-    - Home: index.md
-    - Tema 3:
-      - Capa Física: caracteristicas.md
-      - Medios de transmision: Cableado.md
-      - Cableado estructurado: cableado_estructurado.md
-      - Caso practico: caso_practico.md
+  - Home: index.md
+  - Tema 3:
+    - Capa Física: caracteristicas.md
+    - Medios de transmision: Cableado.md
+    - Cableado estructurado: cableado_estructurado.md
+    - Caso practico: caso_practico.md
