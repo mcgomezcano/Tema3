@@ -70,8 +70,10 @@ La instalación debe cumplir normas internacionales (ANSI/TIA-568, ISO/IEC 11801
 
 Algunos de los organismos encargados de normalizar o regular el cableado estructurado son:
 ![imagen 2](imagenes/normas_cableado.jpg)
+
 La normativa de cableado estructurado en España es la que aplica los estándares europeos (EN) que están a cargo de CEN/CENELEC.
 La adaptación de los principios EN a las normas de nuestro país está a cargo de AENOR, dando lugar a los estándares UNE EN.
+
 * UNE EN 50310. Diseño del edificio
 * UNE EN 50173. Diseño y distribución del SCE
 * UNE EN 50174. Planificación del SCE

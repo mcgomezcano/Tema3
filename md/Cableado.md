@@ -38,6 +38,14 @@ Los cables UTP generalmente se terminan con un conector RJ-45.
 
 Investiga los diferentes tipos de par trenzado en este [enlace](https://www.redeszone.net/tutoriales/redes-cable/guia-cable-red-ethernet-elegir/)
 
+???+ note "Pregunta"
+
+    ¿Qué norma se utiliza para realizar cable UTP directo?
+
+    ??? question "Respuesta"
+
+        TIA/EIA-568B en ambos extremos
+
 ## CABLE COAXIAL
 
 Es un cable utilizado para transportar señales eléctricas de alta frecuencia que posee dos conductores concéntricos, uno central, **núcleo**, encargado de llevar la información, y uno exterior, de aspecto tubular, llamado **malla**, blindaje o trenza, que sirve como referencia de tierra y retorno de las corrientes. Entre ambos se encuentra una capa aislante llamada **dieléctrico**, de cuyas características dependerá principalmente la calidad del cable. Todo el conjunto suele estar protegido por una cubierta aislante (también denominada chaqueta exterior).
