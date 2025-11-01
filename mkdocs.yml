@@ -1,5 +1,24 @@
 site_name: Diseño de una red
-theme: mkdocs
+theme: material
+palette:
+    - scheme: default
+      toggle:
+          icon: material/brightness-7 
+          name: Canvia a mode oscur
+
+      - scheme: slate
+      toggle:
+          icon: material/brightness-4
+          name: Canvia a mode clar
+extra_css:
+  - css/styles.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+plugins:
+    - search
+    - pdf-export
+    - page-to-pdf
 docs_dir: 'md'
 site_dir: 'docs'
 nav:
@@ -8,3 +27,4 @@ nav:
       - Capa Física: caracteristicas.md
       - Medios de transmision: Cableado.md
       - Cableado estructurado: cableado_estructurado.md
+
