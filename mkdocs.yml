@@ -1,12 +1,12 @@
 site_name: Diseño de una red
 theme: material
 palette:
-    - scheme: default
+      scheme: default
       toggle:
           icon: material/brightness-7 
           name: Canvia a mode oscur
 
-      - scheme: slate
+      scheme: slate
       toggle:
           icon: material/brightness-4
           name: Canvia a mode clar
