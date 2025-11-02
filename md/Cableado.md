@@ -66,7 +66,9 @@ Un cable de fibra óptica tiene forma cilíndrica y está formado por tres secci
 Cuando las señales de luz se envían a través del cable de fibra óptica, se reflejan en el núcleo y el revestimiento en una serie de rebotes en zig-zag, adhiriéndose a un proceso llamado **reflexión interna total**.
 
 Existen dos tipos de cable de fibra óptica:
+
 * **Monomodo**. Usado para distancias más largas debido al diámetro más pequeño del núcleo de fibra de vidrio, lo que disminuye la posibilidad de atenuación. La abertura más pequeña aísla la luz en un solo haz, que ofrece una ruta más directa y permite que la señal viaje una distancia más larga. También tiene un ancho de banda mayor. La fuente de luz utilizada para la fibra monomodo es típicamente un **láser**.
+  
 * **Multimodo**. Se usa para distancias más cortas porque la abertura central más grande permite que las señales de luz reboten y se reflejen más en el camino. El diámetro más grande permite enviar múltiples pulsos de luz a través del cable al mismo tiempo, lo que da como resultado una mayor transmisión de datos. Sin embargo, esto también significa que hay más posibilidades de pérdida de señal, reducción o interferencia. La fibra óptica multimodo generalmente usa un **LED** para crear el pulso de luz. 
   
 * * *

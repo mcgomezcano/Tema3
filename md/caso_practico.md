@@ -37,9 +37,10 @@ Junto a los materiales, hay que adquirir las herramientas que nos permitirán ha
 
 ![imagen 2 ](imagenes/herramientas.png)
 
-!!! warning
-
+!!! warning "¡Cuidado!" 
+    Esto es una advertencia. 
     Atención: Respetar las normas de seguridad oportunas para evitar cortes!
+
 
 ## Paso 3: Montaje: instalación del cableado estructurado
 Diseño hecho y materiales listos, el siguiente paso es la instalación de los cables. Esto implica hacer agujeros, pasar cables a través de paredes y techos, y conectarlos a los paneles de parcheo.
@@ -89,3 +90,4 @@ graph TD
     D --> F(PCs / Oficinas Planta 1)
     E --> G(PCs / Oficinas Planta 2)
     C --> H[Servidor / NAS]
+```

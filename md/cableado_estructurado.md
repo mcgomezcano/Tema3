@@ -9,6 +9,7 @@ La instalación de todos los elementos debe cumplir los estándares correspondie
 En un sistema de cableado estructurado todos los dispositivos finales están conectados a un punto central para facilitar la interconexión con cualquier dispositivo y la administración del sistema desde cualquier lugar.
 ## Ventajas
 Antes de proceder al diseño de la red se han de tener en cuenta muchos factores que van a repercutir en la elección de unas características u otras. Todos ellos deben ser tenidos en cuenta para poder realizar un correcto dimensionado de la infraestructura que se adapte tanto a las necesidades actuales como futuras.
+
 * Facilidad y flexibilidad de mantenimiento.
 * Integración de señales.
 * Facilidad de instalación y de ampliación (escalabilidad).
@@ -82,6 +83,7 @@ Cuando se instalan cables de par trenzado en el cableado vertical, horizontal o 
 
 Mediante el **diagnóstico** se prueba la funcionalidad del cableado, determinando si este puede transportar señales entre sus extremos dentro de los parámetros de calidad
 establecidos por los estándares, analizando cuestiones como:
+
 * Eficiencia de transmisión de la señal a través del cable.
 * Interferencias en la señal durante la transmisión.
 * Atenuación de la señal durante la transmisión.
@@ -96,9 +98,4 @@ Las pruebas de certificación se llevan a cabo con personal capacitado y con equ
     Una red que no está certificada no está terminada.
 
 ![imagen 4](imagenes/CertificaciondeRedes.jpg)
-
-
-
-!!! warning "¡Cuidado!" 
-    Esto es una advertencia.
 
