@@ -15,6 +15,7 @@ Este plan ha de contemplar igualmente el ancho de banda necesario y la definici�
 
 Otra cuestión importante es precisamente la distribución física de los equipos y las tomas. Una buena ubicación y colocación es aval de una mejor calidad de las conexiones al minimizar las distancias y evitar las pérdidas de señal o interferencias. Además de facilitar el acceso para el mantenimiento y posibles actualizaciones.
 
+
 ## Paso 2: Selección de los materiales y preparación de herramientas
 Tras realizar el diseño hay que seleccionar el tipo de cable y otros componentes necesarios para el proyecto como conectores, paneles de conexión, tomas de corriente, canaletas y otros. Es importante esta elección porque determinará el rendimiento final de la red por lo que hay que comprobar que cables y hardware admitan las velocidades de transmisión requeridas y que se garantiza la compatibilidad entre los diferentes componentes.
 
@@ -50,7 +51,7 @@ Otro aspecto importante es asegurarse de que el lugar de la instalación del sis
 En este proceso hablamos de instalar canaletas o tubos en las parades y techos para contener los cables de manera ordenada y protegerlos. De instalar cableado horizontal desde las tomas de corriente en las áreas de trabajo hasta los paneles de conexión en los cuartos de telecomunicaciones; y del cableado troncal que conectará los diferentes cuartos de telecomunicaciones.
 
 Uno de los primeros pasos del montaje es la instalación de entrada y supone decidir por dónde ingresarán los cables y cómo se distribuirán en el espacio. Es esencial garantizar que las entradas estén protegidas contra el polvo, agua o cualquier otro elemento que pueda dañar los cables. Además, planificar una ruta lógica y eficiente para los cables puede reducir la necesidad de intervenciones futuras.
-![imagen 3 ](imagenes/canalizacion.png)
+![imagen 3 ](imagenes/Canalizacion.png)
 
 Una vez que los cables han ingresado al espacio designado, la distribución interna se encarga de llevar cada cable a su destino correspondiente. La clave aquí es la organización. Como consejos: utilizar etiquetas para identificar cables, agruparlos según su función y evitar cruzamientos innecesarios. El objetivo es que, a simple vista, cualquier técnico pueda identificar y acceder a cualquier cable sin inconvenientes.
 
@@ -77,3 +78,14 @@ Otro de los puntos a tener en cuenta en este procedimiento es documentar todos l
 ## Paso 7: Mantenimiento y gestión
 El proceso de instalación de cableado estructurado no acaba una vez que está todo acoplado y funcionando. Requiere de un mantenimiento regular y unas actualizaciones periódicas. Desde el empleo de organizadores para conservar los cables ordenados y evitar enredos, hasta la obligatoriedad de realizar mantenimientos regulares para cerciorarse de que el cableado está en buen estado y operando correctamente, comprobando que no hay desgaste, daños o fallos de los componentes.
 
+### 🖧 Diagrama de red propuesto
+
+```mermaid
+graph TD
+    A[Proveedor de Internet] --> B[Rou­ter]
+    B --> C[Switch Principal - Rack]
+    C --> D[Switch Planta 1]
+    C --> E[Switch Planta 2]
+    D --> F(PCs / Oficinas Planta 1)
+    E --> G(PCs / Oficinas Planta 2)
+    C --> H[Servidor / NAS]

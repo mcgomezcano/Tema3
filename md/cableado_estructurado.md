@@ -15,16 +15,15 @@ Antes de proceder al diseño de la red se han de tener en cuenta muchos factores
 * Aumento de la seguridad, tanto a nivel de datos como a nivel de seguridad personal.
 * Alta velocidad de transmisión.
 
-## Espacios. Subsitemas
-El cableado estructurado se divide en subsistemas más
-pequeños, cada uno de los cuales tiene una función
-determinada dentro del sistema global.
-Se puede abordar el diseño y montaje del cableado de una
-LAN por partes, cada una de ellas independientemente de
-las demás, lo que facilita la instalación y mantenimiento
+## Espacios. Subsistemas
+El cableado estructurado se divide en subsistemas más pequeños, cada uno de los cuales tiene una función determinada dentro del sistema global.
+Se puede abordar el diseño y montaje del cableado de una LAN por partes, cada una de ellas independientemente de las demás, lo que facilita la instalación y mantenimiento
 posterior. 
 
-Un sistema de cableado estructurado incluye canalizaciones, medios de transmisión, conectores y paneles. Podemos distinguir las siguientes partes:
+??? tip "Consejo oculto"
+    Un sistema de cableado estructurado incluye canalizaciones, medios de transmisión, conectores y paneles.
+ 
+Podemos distinguir las siguientes partes:
 
   * **Cableado vertical** o **Backbone**: Es la parte troncal de la instalación, conecta diferentes plantas, por tanto, hay que tener especial cuidado porque cualquier disminución del rendimiento en este cableado afectaría a toda la instalación.
   * **Cableado Horizontal**: El cableado horizontal facilita la comunicación dentro de la planta, va desde el área de trabajo hasta el armario de comunicaciones.
@@ -44,23 +43,18 @@ La máxima longitud permitida independientemente del tipo de medio de TX utiliza
 ### Subsistema vertical
 El propósito del cableado vertical (*backbone*) es proporcionar interconexiones entre cada uno de los concentradores y conmutadores, que a través del cableado horizontal controlan las distintas áreas de trabajo, y el o los de telecomunicaciones establecidos en el diseño de la red.
 ### Area de trabajo
-Cada área de trabajo tiene una o varias tomas de usuario. En
-cada uno de ellos habrá una roseta de conexión que permite
-conectar el equipo o equipos que se quieran integrar en la
-red.
+Cada área de trabajo tiene una o varias tomas de usuario. En cada uno de ellos habrá una roseta de conexión que permite
+conectar el equipo o equipos que se quieran integrar en la red.
 ### Cuarto de telecomunicaciones y armarios
 El cuarto de telecomunicaciones (TC- *Telecommunications
 Closet*) es el área exclusiva dentro de un edificio para albergar los equipos de la red local de interconexión entre cada uno de los subsistemas del cableado estructurado.
 
-Es un espacio cerrado de un edificio utilizado para el uso
-exclusivo de cableado de telecomunicaciones y sistemas
-auxiliares: bastidores (*racks*), concentradores, aire
-acondicionado propio…
+Es un espacio cerrado de un edificio utilizado para el uso exclusivo de cableado de telecomunicaciones y sistemas auxiliares: bastidores (*racks*), concentradores, aire acondicionado propio…
 
-Un **rack** es un soporte metálico destinado a alojar equipamiento electrónico, informático y de comunicaciones. También son llamados bastidores, cabinas, cabinets o armarios.
+Un **rack** es un soporte metálico destinado a alojar equipamiento electrónico, informático y de comunicaciones. También son llamados *bastidores*, cabinas, cabinets o armarios.
 Deben de contar con al menos 82 cm de espacio libre por delante y por detrás. Las medidas para la anchura están
 normalizadas para que sean compatibles con equipamiento de cualquier fabricante (19”).
-La altura interior de los racks se mide en unidades de altura conocidas como unidades U. Una unidad de altura U equivale a 50 milímetros de longitud.
+La altura interior de los racks se mide en unidades de altura conocidas como **unidades U**. Una unidad de altura U equivale a 50 milímetros de longitud.
 
 En una instalación para una red de ordenadores se instala al menos un rack por planta. El de la planta baja suele ser el principal (a menos que se trate de una red de varios edificios).
 ![](imagenes/esquema.jpg)
@@ -69,6 +63,7 @@ En una instalación para una red de ordenadores se instala al menos un rack por 
 La instalación debe cumplir normas internacionales (ANSI/TIA-568, ISO/IEC 11801) y nacionales (NOM-001-SEDE), asegurando seguridad, compatibilidad y auditorías confiables.
 
 Algunos de los organismos encargados de normalizar o regular el cableado estructurado son:
+
 ![imagen 2](imagenes/normas_cableado.jpg)
 
 La normativa de cableado estructurado en España es la que aplica los estándares europeos (EN) que están a cargo de CEN/CENELEC.
@@ -82,13 +77,10 @@ A la hora de hacer las conexiones, la norma EIA/TIA 568A - B especifica la dispo
 
 ![imagen 3](imagenes/T568A-B.jpg)
 
-
 ## Diagnóstico
 Cuando se instalan cables de par trenzado en el cableado vertical, horizontal o área de trabajo, así como cualquier latiguillo de parcheo, es necesario verificar mediante pruebas de diagnóstico la ausencia de errores.
 
-Mediante el **diagnóstico** se prueba la funcionalidad del
-cableado, determinando si este puede transportar señales
-entre sus extremos dentro de los parámetros de calidad
+Mediante el **diagnóstico** se prueba la funcionalidad del cableado, determinando si este puede transportar señales entre sus extremos dentro de los parámetros de calidad
 establecidos por los estándares, analizando cuestiones como:
 * Eficiencia de transmisión de la señal a través del cable.
 * Interferencias en la señal durante la transmisión.
@@ -96,13 +88,17 @@ establecidos por los estándares, analizando cuestiones como:
 
 ## Certificación
 La **certificación** del cableado estructurado es el proceso de prueba y análisis por el que se establece la seguridad de que dicho cableado cumple con unos parámetros de calidad
-establecidos en estándares, y especificados en contrato,
-atendiendo a la calidad del cable utilizado.
+establecidos en estándares, y especificados en contrato, atendiendo a la calidad del cable utilizado.
 
 Las pruebas de certificación se llevan a cabo con personal capacitado y con equipos calibrados y certificados por laboratorios nacionales o internacionales y para validar que la funcionalidad y rendimiento del cable estén al menos dentro de lo que indican los estándares.
 
-```python
-Una red que no está certificada no está terminada.
-```
+!!! note
+    Una red que no está certificada no está terminada.
+
 ![imagen 4](imagenes/CertificaciondeRedes.jpg)
+
+
+
+!!! warning "¡Cuidado!" 
+    Esto es una advertencia.
 
