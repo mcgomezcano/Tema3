@@ -649,22 +649,14 @@ Atención: Respetar las normas de seguridad oportunas para evitar cortes!</p>
 <h2 id="paso-7-mantenimiento-y-gestion">Paso 7: Mantenimiento y gestión<a class="headerlink" href="#paso-7-mantenimiento-y-gestion" title="Permanent link">&para;</a></h2>
 <p>El proceso de instalación de cableado estructurado no acaba una vez que está todo acoplado y funcionando. Requiere de un mantenimiento regular y unas actualizaciones periódicas. Desde el empleo de organizadores para conservar los cables ordenados y evitar enredos, hasta la obligatoriedad de realizar mantenimientos regulares para cerciorarse de que el cableado está en buen estado y operando correctamente, comprobando que no hay desgaste, daños o fallos de los componentes.</p>
 <h3 id="diagrama-de-red-propuesto">🖧 Diagrama de red propuesto<a class="headerlink" href="#diagrama-de-red-propuesto" title="Permanent link">&para;</a></h3>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span>
-<span class="normal">7</span>
-<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code>graph TD
+<pre class="mermaid"><code>graph TD
     A[Proveedor de Internet] --&gt; B[Rou­ter]
     B --&gt; C[Switch Principal - Rack]
     C --&gt; D[Switch Planta 1]
     C --&gt; E[Switch Planta 2]
     D --&gt; F(PCs / Oficinas Planta 1)
     E --&gt; G(PCs / Oficinas Planta 2)
-    C --&gt; H[Servidor / NAS]
-</code></pre></div></td></tr></table></div>
+    C --&gt; H[Servidor / NAS]</code></pre>
 
 
 
