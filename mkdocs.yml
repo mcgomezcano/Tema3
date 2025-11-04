@@ -27,7 +27,11 @@ theme:
 
 plugins:
   - search
- # - mkdocs-pdf-export-plugin    
+  - with-pdf
+  - pdf-export:
+      combined: true
+#  - mkdocs-pdf-export-plugin 
+     
 
 markdown_extensions:
   - admonition
